@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'ANKit'
-    s.version          = 'v0.0.2'
+    s.version          = '0.0.2'
     s.summary          = 'Andy`s ANKit.'
     
     s.description      = <<-DESC
