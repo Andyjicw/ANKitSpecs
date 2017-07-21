@@ -1,23 +1,48 @@
+#
+# Be sure to run `pod lib lint ANKit.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
+#
+
 Pod::Spec.new do |s|
-    s.name             = 'ANKit'
-    s.version          = '0.0.2'
-    s.summary          = 'Andy`s ANKit.'
-    
-    s.description      = <<-DESC
-    TODO: Add long description of the pod here.
-    DESC
-    
-    s.homepage         = 'https://bitbucket.org/andyjichw/ankit'
-    s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'Andyjicw' => '479003573@qq.com' }
-    s.source           = { :git => 'https://andyjichw@bitbucket.org/andyjichw/ankit.git', :tag => s.version.to_s }
-    s.ios.deployment_target = '8.0'
-    
-    s.source_files = 'Classes/**/*'
-    s.dependency 'AFNetworking', '3.1'
-    s.dependency 'CocoaLumberjack', '3.1.0'
-    s.dependency 'FMDB', '2.6.2'
-    s.dependency 'MJRefresh', '3.1.12'
-    s.dependency 'SSZipArchive', '1.8'
-    s.dependency 'YYKit', '1.0.9'
+s.name             = 'ANKit'
+s.version          = '0.2.0'
+s.summary          = 'Andy`s ANKit. fast'
+
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
+
+s.description      = <<-DESC
+TODO: Add long description of the pod here.
+DESC
+
+s.homepage         = 'https://github.com/Andyjicw'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'Andyjicw' => '479003573@qq.com' }
+s.source           = { :git => 'https://andyjichw@bitbucket.org/andyjichw/ankit.git', :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+s.ios.deployment_target = '8.0'
+
+s.source_files = 'ANKit/Classes/**/*'
+
+# s.resource_bundles = {
+#   'ANKit' => ['ANKit/Assets/*.png']
+# }
+
+# s.public_header_files = 'Pod/Classes/**/*.h'
+# s.frameworks = 'UIKit', 'MapKit'
+s.dependency 'AFNetworking', '3.1'
+s.dependency 'CocoaLumberjack', '3.1.0'
+s.dependency 'FMDB', '2.6.2'
+s.dependency 'MJRefresh', '3.1.12'
+s.dependency 'SSZipArchive', '1.8'
+s.dependency 'YYKit', '1.0.9'
+
 end
